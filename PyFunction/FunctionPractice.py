@@ -52,11 +52,34 @@
 # def hello(name="Guest"):
 #     print('Hello All', name)
 # hello()
-# hello('Aman')\\
+# hello('Aman')
     
-def argsss(*args) : 
-    print(args)
+# def argsss(*args) : 
+#     print(args)
 
-print(argsss(1,2))
+# print(argsss(1,2))
 # *args 
 # *kwars 
+
+# ===============Keyword Arguement=====================
+# def hello(name,age,address):
+#     print(f"My name is {name}, i'm {age} years old and i live in {address}")
+# hello(address='Indore', name='Shivam', age=16)
+
+# =============== *args =====================
+# def add(*nums):
+#     total = 0
+#     for i in nums:
+#         total += i
+#     return total
+
+# print(add(12,23))
+# print(add(54,77,100,19,272))
+
+# =============== *args =====================
+# def show_profile(**details): 
+#     for key, value in details.items(): 
+#         print(key, value)
+        
+# show_profile(name="Aman", age=21, 
+# course="Python")
